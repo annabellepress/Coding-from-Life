@@ -1,0 +1,177 @@
+/*
+  Coding from Life – Sketch 1: fixed layout
+
+  For sketch 1 you'll be positioning elements relative to an element with a fixed
+  width and height. For this sketch you can position elements by using pixel values.
+*/
+
+body {
+  background-color: grey;
+}
+
+.frame {
+  width: 1000px;
+  height: 600px;
+  background: #f1e6e6;
+  margin: 30px auto;
+  margin-right: 30px;
+  margin-left: 30px;
+  position: relative;
+}
+.table {
+  position: relative;
+  width: 650px;
+  height: 500px;
+  transform: skew(34deg);
+  background: white;
+  left: 176px;
+  bottom: -50px;
+}
+.back-squash {
+  position: relative;
+  width: 250px;
+  height: 180px;
+  background: #e0d678;
+  bottom: 480px;
+  left: 468px;
+  border-radius: 150px;
+  transform: rotate(15deg);
+}
+.front-squash {
+  position: relative;
+  width: 280px;
+  height: 160px;
+  background: #e0d678;
+  bottom: 356px;
+  left: 324px;
+  border-radius: 150px;
+  z-index: 1;
+  transform: rotate(-20deg);
+}
+.base {
+  position: relative;
+  width: 120px;
+  height: 110px;
+  border-style: solid;
+  border-color: goldenrod;
+  border-width: 12px;
+  border-radius: 120px;
+  top: -750px;
+  left: 335px;
+  transform: skew(18deg);
+}
+.stand {
+  position: relative;
+  width: 12px;
+  height: 160px;
+  background: goldenrod;
+  top: -974px;
+  left: 396px;
+}
+.vase {
+  position: relative;
+  width: 200px;
+  height: 325px;
+  background: lightsteelblue;
+  bottom: 1134px;
+  left: 500px;
+  opacity: 0.5;
+  border-bottom-left-radius: 35px;
+  border-bottom-right-radius: 35px;
+}
+.stem1 {
+  position: relative;
+  width: 15px;
+  height: 326px;
+  background: seagreen;
+  bottom: 1460px;
+  left: 564px;
+  transform: skew(20deg);
+}
+.stem2 {
+  position: relative;
+  width: 15px;
+  height: 325px;
+  background: seagreen;
+  top: -1785px;
+  left: 575px;
+  transform: skew(15deg);
+}
+.stem3 {
+  position: relative;
+  width: 15px;
+  height: 325px;
+  background: seagreen;
+  bottom: 2110px;
+  left: 582px;
+  transform: skew(-15deg);
+}
+.stem4 {
+  position: relative;
+  width: 15px;
+  height: 325px;
+  background: seagreen;
+  transform: skew(-8deg);
+  bottom:2435px;
+  left: 597px;
+}
+.base3 {
+  position: relative;
+  width: 180px;
+  height: 140px;
+  transform: skew(35deg);
+  background: #584b2c;
+  top: -2547px;
+  left: 212px;
+}
+.rod {
+  position: relative;
+  width: 10px;
+  height: 140px;
+  background: #44391f;
+  top: -2742px;
+  left: 297px;
+}
+.body {
+  position: relative;
+  width: 140px;
+  height: 80px;
+  background: #6d5e3c;
+  border-radius: 150px;
+  top: -2900px;
+  left: 249px;
+  transform: rotate(38deg);
+}
+.head {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  background: #6d5e3c;
+  border-radius: 100px;
+  top: -2985px;
+  left: 345px;
+}
+.beak {
+  position: relative;
+  width: 0px;
+  height: 0px;
+  border-top: 10px solid transparent;
+  border-left: 20px solid #6d5e3c;
+  border-bottom: 10px solid transparent;
+  top: -3010px;
+  left: 415px;
+  transform: rotate(35deg);
+}
+.tail {
+  position: relative;
+  width: 12px;
+  height: 24px;
+  border-top: 20px solid transparent;
+  border-left: 40px solid #6d5e3c;
+  border-bottom: 20px solid transparent;
+  top: -3127px;
+  left: 240px;
+  transform: rotate(45deg);
+}
+
+/* Your CSS goes here */
